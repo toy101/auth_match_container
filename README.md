@@ -12,3 +12,4 @@ docker run -it --gpus all --name rl-$USER -e LOCAL_UID=$(id -u $USER) -e LOCAL_G
 ```
 #### option
 - `-v DIRNAME:/workspace`
+- '-v /home/$USER/.ssh:/home/$USER/.ssh
